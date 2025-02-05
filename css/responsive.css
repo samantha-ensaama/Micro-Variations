@@ -1,0 +1,965 @@
+@media (max-width: 800px) {
+    #fleur{
+        --largeur: 510px;
+        height : calc(var(--largeur)*1.6);
+        width: var(--largeur);
+        position: relative;
+        left:50%;
+        top:50%;
+        transform :translateY(-50%) translateX(-50%);
+      
+      }
+
+      #goutte1{
+        height: 8%;
+        width : 80%;
+        left: 47%; 
+        top : 9%;
+        mask-image: url('../img/goutte_2.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle{
+        height: 5%;
+        width : 80%;
+        left: 46%; 
+        top : 6%;
+        mask-image: url('../img/cercle_bleu.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color:royalblue;
+      }
+      
+      #goutte2{
+        height: 6%;
+        width : 80%;
+        left: 10%; 
+        top : 17%;
+        mask-image: url('../img/goutte_2.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle1{
+        height: 4%;
+        width : 80%;
+        left: 10%; 
+        top : 15%;
+        mask-image: url('../img/cercle_bleu.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color:royalblue;
+      }
+      
+      #goutte3{
+        height: 6%;
+        width : 80%;
+        left: 6%; 
+        top : 45%;
+        mask-image: url('../img/goutte_3.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle2{
+        height: 4%;
+        width : 80%;
+        left: 79%; 
+        top : 75%;
+        mask-image: url('../img/cercle_bleu.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color:royalblue;
+      }
+      
+      #goutte4{
+        height: 6%;
+        width : 80%;
+        left: 35%; 
+        top : 62%;
+        mask-image: url('../img/goutte_2.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle3{
+        height: 3%;
+        width : 80%;
+        left: 40%; 
+        top : 20%;
+        mask-image: url('../img/cercle_bleu.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color:royalblue;
+      }
+      
+      #goutte5{
+        height: 5%;
+        width : 80%;
+        left: 10%; 
+        top : 82%;
+        mask-image: url('../img/goutte_4.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle4{
+        height: 5%;
+        width : 80%;
+        left: 10%; 
+        top : 80%;
+        mask-image: url('../img/cercle_bleu.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color:royalblue;
+      }
+      
+      #goutte6{
+        height: 5%;
+        width : 80%;
+        left: 20%; 
+        top : 87%;
+        mask-image: url('../img/goutte_4.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle5{
+        height: 5%;
+        width : 80%;
+        left: 20%; 
+        top : 70%;
+        mask-image: url('../img/cercle_rouge.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: darkred;
+      }
+      
+      #goutte7{
+        height: 2%;
+        width : 80%;
+        left: 35%; 
+        top : 97%;
+        mask-image: url('../img/goutte_5.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle6{
+        height: 3%;
+        width : 80%;
+        left: 32%; 
+        top : 95%;
+        mask-image: url('../img/cercle_rouge.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: darkred;
+      }
+      
+      #goutte8{
+        height: 5%;
+        width : 80%;
+        left: 65%; 
+        top : 92%;
+        mask-image: url('../img/goutte_4.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle7{
+        height: 4%;
+        width : 80%;
+        left: 65%; 
+        top : 90%;
+        mask-image: url('../img/cercle_rouge.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: darkred;
+      }
+      
+      #goutte9{
+        height: 5%;
+        width : 80%;
+        left: 59%; 
+        top : 80%;
+        mask-image: url('../img/goutte_3.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle8{
+        height: 4%;
+        width : 80%;
+        left: 50%; 
+        top : 70%;
+        mask-image: url('../img/cercle_rouge.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: darkred;
+      }
+      
+      #goutte10{
+        height: 5%;
+        width : 80%;
+        left: 80%; 
+        top : 65%;
+        mask-image: url('../img/goutte_5.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle9{
+        height: 5%;
+        width : 80%;
+        left: 88%; 
+        top : 60%;
+        mask-image: url('../img/cercle_rouge.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: darkred;
+      }
+      
+      #goutte11{
+        height: 8%;
+        width : 80%;
+        left: 90%; 
+        top : 22%;
+        mask-image: url('../img/goutte_6.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle10{
+        height: 5%;
+        width : 80%;
+        left: 89%; 
+        top : 20%;
+        mask-image: url('../img/cercle_bleu_clair.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #goutte5{
+        height: 5%;
+        width : 80%;
+        left: 75%; 
+        top : 10%;
+        mask-image: url('../img/goutte_2.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle11{
+        height: 4%;
+        width : 80%;
+        left: 75%; 
+        top : 2%;
+        mask-image: url('../img/cercle_bleu_clair.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle12{
+        height: 3%;
+        width : 80%;
+        left: 6%; 
+        top : 30%;
+        mask-image: url('../img/cercle_bleu_clair.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle13{
+        height: 3%;
+        width : 80%;
+        left: 25%; 
+        top : 10%;
+        mask-image: url('../img/cercle_bleu_clair.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #goutte{
+        height: 7%;
+        width : 80%;
+        left: 41%; 
+        top : 43%;
+        mask-image: url('../img/goutte_1.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+      
+      #cercle14{
+        height: 5%;
+        width : 80%;
+        left: 40%; 
+        top : 40%;
+        mask-image: url('../img/cercle_bleu_clair.svg');
+        mask-repeat: no-repeat;
+        position: absolute;
+        background-color: lightblue;
+      }
+    /*apparence différente pour une page inférieure à 800px*/
+    }
+    
+    @media (max-width: 1000px) and (min-width :800px){
+        #fleur{
+            --largeur: 635px;
+            height : calc(var(--largeur)*1.6);
+            width: var(--largeur);
+            position: relative;
+            left:50%;
+            top:50%;
+            transform :translateY(-50%) translateX(-50%);
+          
+          }
+
+          #goutte1{
+            height: 8%;
+            width : 80%;
+            left: 47%; 
+            top : 9%;
+            mask-image: url('../img/goutte_2.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle{
+            height: 5%;
+            width : 80%;
+            left: 46%; 
+            top : 6%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte2{
+            height: 6%;
+            width : 80%;
+            left: 10%; 
+            top : 17%;
+            mask-image: url('../img/goutte_2.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle1{
+            height: 4%;
+            width : 80%;
+            left: 10%; 
+            top : 15%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte3{
+            height: 6%;
+            width : 80%;
+            left: 6%; 
+            top : 45%;
+            mask-image: url('../img/goutte_3.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle2{
+            height: 4%;
+            width : 80%;
+            left: 79%; 
+            top : 75%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte4{
+            height: 6%;
+            width : 80%;
+            left: 35%; 
+            top : 62%;
+            mask-image: url('../img/goutte_2.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle3{
+            height: 3%;
+            width : 80%;
+            left: 40%; 
+            top : 20%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte5{
+            height: 5%;
+            width : 80%;
+            left: 10%; 
+            top : 82%;
+            mask-image: url('../img/goutte_4.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle4{
+            height: 5%;
+            width : 80%;
+            left: 10%; 
+            top : 80%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte6{
+            height: 5%;
+            width : 80%;
+            left: 20%; 
+            top : 87%;
+            mask-image: url('../img/goutte_4.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle5{
+            height: 5%;
+            width : 80%;
+            left: 20%; 
+            top : 70%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte7{
+            height: 2%;
+            width : 80%;
+            left: 35%; 
+            top : 97%;
+            mask-image: url('../img/goutte_5.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle6{
+            height: 3%;
+            width : 80%;
+            left: 32%; 
+            top : 95%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte8{
+            height: 5%;
+            width : 80%;
+            left: 65%; 
+            top : 92%;
+            mask-image: url('../img/goutte_4.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle7{
+            height: 4%;
+            width : 80%;
+            left: 65%; 
+            top : 90%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte9{
+            height: 5%;
+            width : 80%;
+            left: 59%; 
+            top : 80%;
+            mask-image: url('../img/goutte_3.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle8{
+            height: 4%;
+            width : 80%;
+            left: 50%; 
+            top : 70%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte10{
+            height: 5%;
+            width : 80%;
+            left: 80%; 
+            top : 65%;
+            mask-image: url('../img/goutte_5.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle9{
+            height: 5%;
+            width : 80%;
+            left: 88%; 
+            top : 60%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte11{
+            height: 8%;
+            width : 80%;
+            left: 90%; 
+            top : 22%;
+            mask-image: url('../img/goutte_6.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle10{
+            height: 5%;
+            width : 80%;
+            left: 89%; 
+            top : 20%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #goutte5{
+            height: 5%;
+            width : 80%;
+            left: 75%; 
+            top : 10%;
+            mask-image: url('../img/goutte_2.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle11{
+            height: 4%;
+            width : 80%;
+            left: 75%; 
+            top : 2%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle12{
+            height: 3%;
+            width : 80%;
+            left: 6%; 
+            top : 30%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle13{
+            height: 3%;
+            width : 80%;
+            left: 25%; 
+            top : 10%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #goutte{
+            height: 7%;
+            width : 80%;
+            left: 41%; 
+            top : 43%;
+            mask-image: url('../img/goutte_1.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle14{
+            height: 5%;
+            width : 80%;
+            left: 40%; 
+            top : 40%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+    /*apparence différente pour une page comprise entre 800px et 1000px*/
+    }
+    
+    @media (min-width :1800px){
+        #fleur{
+            --largeur: 840px;
+            height : calc(var(--largeur)*1.6);
+            width: var(--largeur);
+            position: relative;
+            left:50%;
+            top:50%;
+            transform :translateY(-50%) translateX(-50%);
+          
+          }
+
+          #goutte1{
+            height: 8%;
+            width : 80%;
+            left: 47%; 
+            top : 9%;
+            mask-image: url('../img/goutte_2.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle{
+            height: 5%;
+            width : 80%;
+            left: 46%; 
+            top : 6%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte2{
+            height: 6%;
+            width : 80%;
+            left: 10%; 
+            top : 17%;
+            mask-image: url('../img/goutte_2.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle1{
+            height: 4%;
+            width : 80%;
+            left: 10%; 
+            top : 15%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte3{
+            height: 6%;
+            width : 80%;
+            left: 6%; 
+            top : 45%;
+            mask-image: url('../img/goutte_3.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle2{
+            height: 4%;
+            width : 80%;
+            left: 79%; 
+            top : 75%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte4{
+            height: 6%;
+            width : 80%;
+            left: 35%; 
+            top : 62%;
+            mask-image: url('../img/goutte_2.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle3{
+            height: 3%;
+            width : 80%;
+            left: 40%; 
+            top : 20%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte5{
+            height: 5%;
+            width : 80%;
+            left: 10%; 
+            top : 82%;
+            mask-image: url('../img/goutte_4.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle4{
+            height: 5%;
+            width : 80%;
+            left: 10%; 
+            top : 80%;
+            mask-image: url('../img/cercle_bleu.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color:royalblue;
+          }
+          
+          #goutte6{
+            height: 5%;
+            width : 80%;
+            left: 20%; 
+            top : 87%;
+            mask-image: url('../img/goutte_4.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle5{
+            height: 5%;
+            width : 80%;
+            left: 20%; 
+            top : 70%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte7{
+            height: 2%;
+            width : 80%;
+            left: 35%; 
+            top : 97%;
+            mask-image: url('../img/goutte_5.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle6{
+            height: 3%;
+            width : 80%;
+            left: 32%; 
+            top : 95%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte8{
+            height: 5%;
+            width : 80%;
+            left: 65%; 
+            top : 92%;
+            mask-image: url('../img/goutte_4.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle7{
+            height: 4%;
+            width : 80%;
+            left: 65%; 
+            top : 90%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte9{
+            height: 5%;
+            width : 80%;
+            left: 59%; 
+            top : 80%;
+            mask-image: url('../img/goutte_3.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle8{
+            height: 4%;
+            width : 80%;
+            left: 50%; 
+            top : 70%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte10{
+            height: 5%;
+            width : 80%;
+            left: 80%; 
+            top : 65%;
+            mask-image: url('../img/goutte_5.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle9{
+            height: 5%;
+            width : 80%;
+            left: 88%; 
+            top : 60%;
+            mask-image: url('../img/cercle_rouge.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: darkred;
+          }
+          
+          #goutte11{
+            height: 8%;
+            width : 80%;
+            left: 90%; 
+            top : 22%;
+            mask-image: url('../img/goutte_6.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle10{
+            height: 5%;
+            width : 80%;
+            left: 89%; 
+            top : 20%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #goutte5{
+            height: 5%;
+            width : 80%;
+            left: 75%; 
+            top : 10%;
+            mask-image: url('../img/goutte_2.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle11{
+            height: 4%;
+            width : 80%;
+            left: 75%; 
+            top : 2%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle12{
+            height: 3%;
+            width : 80%;
+            left: 6%; 
+            top : 30%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle13{
+            height: 3%;
+            width : 80%;
+            left: 25%; 
+            top : 10%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #goutte{
+            height: 7%;
+            width : 80%;
+            left: 41%; 
+            top : 43%;
+            mask-image: url('../img/goutte_1.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+          
+          #cercle14{
+            height: 5%;
+            width : 80%;
+            left: 20%; 
+            top : 40%;
+            mask-image: url('../img/cercle_bleu_clair.svg');
+            mask-repeat: no-repeat;
+            position: absolute;
+            background-color: lightblue;
+          }
+    /*apparence différente pour une page supérieure à 1800px*/
+    }
